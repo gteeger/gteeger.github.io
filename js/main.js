@@ -872,32 +872,9 @@ function render() {
 
 
 
-
-
-    //gl.drawElements(gl.TRIANGLES, new_faces.length, gl.UNSIGNED_SHORT, 0);
-
     requestAnimFrame(render);
 }
 
 
 
-
-    // array element buffer
-
-
-
-
-/*
-    // color array atrribute buffer
-
-    var cBuffer = gl.createBuffer();
-    gl.bindBuffer(gl.ARRAY_BUFFER, cBuffer);
-    gl.bufferData(gl.ARRAY_BUFFER, flatten(vertexColors), gl.STATIC_DRAW);
-
-    var vColor = gl.getAttribLocation(program, "vColor");
-    gl.vertexAttribPointer(vColor, 4, gl.FLOAT, false, 0, 0);
-    gl.enableVertexAttribArray(vColor);
-*/
-
-    // vertex array attribute buffer
 
